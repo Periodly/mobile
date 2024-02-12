@@ -21,11 +21,10 @@ public class MainActivity extends AppCompatActivity {
         boolean isLoggedIn = sharedPreferences.getBoolean("isLoggedIn", false);
 
         if (isLoggedIn) {
-            // User is logged in, redirect to the next activity
+            redirect();
         }
 
-
-            Button loginButton = findViewById(R.id.loginButton);
+        Button loginButton = findViewById(R.id.loginButton);
         loginButton.setOnClickListener((view -> {
             login();
         }));
