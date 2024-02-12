@@ -78,6 +78,13 @@
             android:text="@string/login_button_text"
             />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginError"
+            android:textColor="@color/red"
+            android:textSize="15sp"
+        />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
