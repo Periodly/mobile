@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">PRDLY_mobile</string>
+    <string name="app_name">periodly</string>
+    <string name="login_title">periodly login</string>
+    <string name="login">Login</string>
+    <string name="password">Hasło</string>
+    <string name="login_button_text">Zaloguj się</string>
 </resources>
